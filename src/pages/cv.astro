@@ -1,0 +1,53 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TimeLineElement from "../components/cv/TimeLine.astro";
+---
+
+<BaseLayout title = "Resume">
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Profile</div>
+  </div>
+  
+  <div class="mb-10 text-justify">
+    i've been interested in software since I was 13 and also I started my first website at the same age.I set up,managed game servers,and make at websites at that time, and then I continued my software life professionally in the next period, I always worked on the web(front end), but now I'm working on artificial intelligence and image processing with python.I am continuing my education life as a second-year Computer Engineering student.
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Education</div>
+  </div>
+
+  <div class="time-line-container grid gap-4 mb-10">
+    <TimeLineElement
+      title="Faculty of Engineering,Department of Computer Engineering"
+      subtitle="2022 to 2024 at Karabuk University, Karabuk, Turkey"
+    />
+    <TimeLineElement
+      title="Associate Degree Programs in the Faculty of Open Education - Web Design and Coding"
+      subtitle="2021 to 2023 at Anadolu University, Eskişehir, Turkey"
+    />
+
+<div class="mb-5">
+    <div class="text-3xl w-full font-bold">Skills</div>
+  </div>
+  
+<ul class="list-disc md:columns-5 columns-2 mx-6">
+    <li>Turkish (Native)</li>
+    <li>English (C2)</li>
+    <li>JavaScript</li>
+    <li>Java</li>
+    <li>C</li>
+    <li>MySQL</li>
+    <li>CSS</li>
+    <li>PYTHON</li>
+    <li>HTML</li>
+    <li>Astro</li>
+    <li>Bootstrap</li>
+    <li>Wordpress</li>
+    <li>Git</li>
+    <li>WEB Design</li>
+    <li>Logo Design</li>
+    
+  </ul>
+</BaseLayout>
+
+

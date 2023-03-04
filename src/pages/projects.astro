@@ -1,0 +1,44 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import HorizontalCard from "../components/HorizontalCard.astro";
+---
+
+<BaseLayout title = "Projects">
+  <div>
+    <div class="text-3xl w-full font-bold mb-5">Projects Header</div>
+  </div>
+
+  <HorizontalCard
+    title="Av. Ebru Saylır"
+    img="/proje1.png"
+    desc="Sizlere hukuki danışmanlık hizmeti sunuyoruz Her türlü hukuki danışmanlık ve avukatlık hizmetiniz için Av. Ebru Sayılır Ankara Avukat'lık.."
+    url="https://ebrusayilir.av.tr/"
+    badge="NEW"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="ApkWeben"
+    img="/proje2.png"
+    desc="We are ApkWeben. You might be reading the most boring lines in your life right now, but don't mind me. Get All APK, Premium APK and original mobile game apps ..."
+    url="https://www.apkweben.com/"
+  />
+
+  <div>
+    <div class="text-3xl w-full font-bold mb-5 mt-10">Projects Header</div>
+  </div>
+
+  <HorizontalCard
+  title="My Personal Website"
+  img="/proje3.png"
+  desc="My personal website is a virtual space where I showcase my interests, experiences, and professional accomplishments."
+  url="https://www.semihbugrasezer.com.tr/"
+  badge="HOT"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Demo Project 4"
+    img="/post_img.webp"
+    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    url="#"
+  />
+</BaseLayout>
